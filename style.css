@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    position: relative;
+    background:linear-gradient(to top ,#efac23 50% , #1b1918 50%);
+}
+.continer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding:20px;
+    min-width: 50%;
+    min-height: 10%;
+    border-radius: 10px;
+    background-color: #1d293d;
+    transition: 0.4s;
+}
+
+.nav-continer {
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+}
+
+.nav-continer input,
+.nav-continer button {
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 7px;
+}
+.nav-continer input {
+    background-color: transparent;
+    border: 1px solid #a7a4a4;
+    color: #fff;
+}
+.nav-continer input::placeholder {
+    color: #a7a4a4;
+}
+.nav-continer input:focus {
+    border-color :#fff ;
+}
+.nav-continer button {
+    background-color: #efac23;
+    color: #1b1918;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#resolte {
+    padding: 0px;
+    transition: 0.4s;
+}
+#resolte h3{ 
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.head  .images{
+    width: 160px;
+    height: 235px;
+    overflow: hidden;
+}
+.head  .images img {    
+    width: 100%;
+}
+.head .info {
+    text-align: center;
+}
+.head .info h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}   
+.head .info #stars {
+    color: #fff;
+    font-weight: bold;
+}
+.head .info #stars span  {
+    margin-left: 5px;
+}
+.head .info #info-data {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    color: #8e96ac;
+}
+.head .info #catigory{
+    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .info #catigory span {
+    display: inline-block;
+    border: 1px solid #8e96ac;
+    padding: 3px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+#foter {
+    margin-top: 20px;
+}
+
+#foter #plot h2 ,#foter #cast h2{
+    font-size: 16px;
+    color: #fff;
+}
+#foter #plot p ,#foter #cast p{
+    color: #8e96ac;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+
+
